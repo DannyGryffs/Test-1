@@ -1,10 +1,16 @@
 // Given an array of numbers, return all the numbers that are greater than ten.
 // Ex.:
 //   greaterThanTen([1, 2, 3, 11, 12, 13]);
-const bigNums() {
-bigNums = //need to first find proper form for answer, find a way to tell the system to return all items 10 and above
 
-}
+const bigNums 
+  if 
+//need to first find proper form for answer, find a way to tell the system to return all items 10 and above
+
+// greaterThanTen.pop()
+
+// greaterThanTen.pop()
+
+// greaterThanTen.pop()
 
 function greaterThanTen(numbers) {}
 
@@ -12,7 +18,8 @@ function greaterThanTen(numbers) {}
 // Ex.:
 //   bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']);
 //   => ['banana', 'Bonobo]
-function bWords(words) {}
+
+bWords(words) {}
 
 // Add all the elements from additionalItems to the end of originalArray.
 // Return the originalArray..
