@@ -1,7 +1,11 @@
 // Given an array of numbers, return all the numbers that are greater than ten.
 // Ex.:
 //   greaterThanTen([1, 2, 3, 11, 12, 13]);
-//   => [11, 12, 13]
+const bigNums() {
+bigNums = //need to first find proper form for answer, find a way to tell the system to return all items 10 and above
+
+}
+
 function greaterThanTen(numbers) {}
 
 // Given an array of strings, return all words that start with 'b' or 'B'.
