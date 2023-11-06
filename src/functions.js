@@ -28,10 +28,11 @@ function approximatelyEqual(x, y) {}
 // Ex.:
 //   fullName('John', 'Doe');
 //   => 'John Doe'
-function fullName(firstName, lastName) {
-  return firstName + lastName;
+function addNames(Jane, Doe) {
+// const firstName('Jane');
+// const lastName('Doe';
 }
-console.log(fullName)
+return firstName + lastName; 
 // Generate the sentence "PERSON was drinking BEVERAGE at LOCATION" using the
 // person, beverage and location provided.
 // Ex.:
