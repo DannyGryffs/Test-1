@@ -14,10 +14,10 @@
 Which statement is true about JavaScript?
 
 - [ ] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
-- [ ] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
+- [x] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
 - [ ] **C.** JavaScript requires you to end all statements with a semicolon (`;`).
 - [ ] **D.** All of the above are true.
-- [x] **E.** None of the above are true.
+- [ ] **E.** None of the above are true.
 
 ### A.2. Turn `sum` to `2`.
 
@@ -30,11 +30,11 @@ let sum = 1;
 Which of these lines of code will cause `sum` to have a value of `2`? You can select more than one
 answer.
 
-- [ ] **A.** `sum++`
-- [ ] **B.** `sum += 1`
-- [ ] **C.** `sum = sum + 1`
+- [x] **A.** `sum++`
+- [x] **B.** `sum += 1`
+- [x] **C.** `sum = sum + 1`
 - [ ] **D.** All of the above
-- [x] **E.** Some of the above
+- [ ] **E.** Some of the above
 
 ### A.3. What's the output?
 
@@ -64,8 +64,8 @@ if (word) {
 ```
 
 - [ ] **A.** `yay!`
-- [ ] **B.** `no :(`
-- [x] **C.** An empty line
+- [x] **B.** `no :(`
+- [ ] **C.** An empty line
 - [ ] **D.** N/A because the code has an error
 
 ### A.5. Fill in the blank
@@ -89,8 +89,8 @@ cherry
 
 - [ ] **A.** `const fruit in fruits`
 - [ ] **B.** `const fruit of fruits`
-- [ ] **C.** `let fruit = 0; fruit < fruits.length; fruit++`
-- [x] **D.** None of the above
+- [x] **C.** `let fruit = 0; fruit < fruits.length; fruit++`
+- [ ] **D.** None of the above
 
 ### A.6. What will happen?
 
@@ -104,9 +104,9 @@ function makeWordArray(phrase) {
 ```
 
 - [ ] **A.** Nothing happens because the program errors out.
-- [x] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
+- [ ] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
 - [ ] **C.** It defines a function called `makeWordArray` and outputs a word array.
-- [ ] **D.** It defines a function called `makeWordArray` but nothing else happens.
+- [x] **D.** It defines a function called `makeWordArray` but nothing else happens.
 
 ### A.7. Identify the error
 
@@ -136,9 +136,9 @@ console.log(fruits[fruits.indexOf('apple')]);
 
 - [ ] **A.** The code causes an error because `fruits[fruits.indexOf('apple')]` isn't valid
   JavaScript syntax.
-- [x] **B.** The code causes an error because `fruits.indexOf('apple')` doesn't return a valid
+- [ ] **B.** The code causes an error because `fruits.indexOf('apple')` doesn't return a valid
   index number.
-- [ ] **C.** The code causes an error because it outputs `0` instead of the expected output.
+- [x] **C.** The code causes an error because it outputs `0` instead of the expected output.
 - [ ] **D.** There is no error; the code generates the expected output.
 
 ### A.9. Identify the error
@@ -177,8 +177,8 @@ console.log(numStrings);
 // ['500', '200', '440']
 ```
 
-- [x] **A.** The code causes an error because `numStrings` needs to be a `let` variable.
-- [ ] **B.** The code causes an error because `i <= nums.length` should be `i < nums.length`
+- [ ] **A.** The code causes an error because `numStrings` needs to be a `let` variable.
+- [x] **B.** The code causes an error because `i <= nums.length` should be `i < nums.length`
 - [ ] **C.** The code causes an error because `i++` isn't valid JavaScript syntax.
 - [ ] **D.** There is no error; the code generates the expected output.
 
@@ -204,9 +204,9 @@ outputArgs('hi', 'bye');
 // bye
 ```
 
-- [ ] **A.** The code causes an error because `outputArgs` takes in three arguments but it's being
+- [x] **A.** The code causes an error because `outputArgs` takes in three arguments but it's being
   called with just two.
-- [x] **B.** The code causes an error because it will output `hi`, `bye`, and `undefined` instead
+- [ ] **B.** The code causes an error because it will output `hi`, `bye`, and `undefined` instead
   of the expected output.
 - [ ] **C.** The code causes an error because the `a`, `b`, and `c` variables haven't been
   initialized.
@@ -225,7 +225,7 @@ Functions can be used to create named blocks of code that can be executed/reused
 **_What is the difference between `console.log` and `return`?_**
 
 ```
-code that is console.logged will only show up in the terminal or console. While code that is Returned will be displayed on the webpage or wherever you're setting it to be outputted.
+code that is console.logged will only show up in the terminal or console. Code that is Returned will be applied and/or displayed on the webpage. the purpose of a return is to articulate the result of what you've asked the code to perform.
 ```
 
 **_What's the difference between defining and calling a function?_**
@@ -241,25 +241,25 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-A string is a type of code that typically stores character data, written out using words sometimes mixed with numbers 
+A string is a type of code that typically stores character data, written out in words which can be mixed with numbers
 ```
 
 **_Number_**
 
 ```
-A number is a datatype that can turn a non-number value into a number value 
+A Number data type is a number/integer 
 ```
 
 **_Boolean_**
 
 ```
-A Boolean is a data type/value that only returns its results in a one or the the other way, for example: true or false, 1 or 0, on or off...
+ A Boolean data type only returns its results in true or false values
 ```
 
 **_Array_**
 
 ```
-Arrays are a data type that allows one to represent a list of items in one item. 
+Arrays are a data type that allow a list of items to be represented or grouped up as one  
 ```
 
 ### B.3. Trace the value of `x`
@@ -282,7 +282,7 @@ completed for you.
 
 ```
 Initial values: y = 0, x = 5
-1:              y = 1, x = ??
-2:              y = 2, x = ??
-3:              y = 3, x = ??
+1:              y = 1, x = 10
+2:              y = 2, x = 15
+3:              y = 3, x = 20
 ```
