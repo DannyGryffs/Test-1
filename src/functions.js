@@ -3,9 +3,13 @@
 //   divide(10, 2);
 //   => 5
 function divide(x, y) {
-return x / y;
+  return x / y;
 }
 
+
+let num = divide(10,2)
+
+// console.log(num);
 
 // Return the average of x and y.
 // Here, the average of x and y is the *mean* of x and y. In other words, it's
@@ -14,8 +18,9 @@ return x / y;
 //   average(10, 2);
 //   => 6
 function average(x, y) {
-  return 
+  return (x + y) / 2
 }
+console.log(average(10, 2))
 
 // Return true if x and y are mostly equivalent up to a tolerance of 0.001.
 // In other words, return true if the aboslute value of x - y is less than 0.001.
@@ -28,10 +33,12 @@ function approximatelyEqual(x, y) {}
 // Ex.:
 //   fullName('John', 'Doe');
 //   => 'John Doe'
-function addNames(firstName, lastName) {
-const addNames = firstName + lastName; 
-return addNames(jane, doe)
+function fullName(firstName, lastName) {
+  const addedNames = firstName + ' ' + lastName; 
+  return addedNames
 }
+
+console.log(fullName('Jane', 'Doe'))
 // Generate the sentence "PERSON was drinking BEVERAGE at LOCATION" using the
 // person, beverage and location provided.
 // Ex.:

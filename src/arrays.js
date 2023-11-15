@@ -2,13 +2,18 @@
 // Ex.:
 //   greaterThanTen([1, 2, 3, 11, 12, 13]);
 
-function 
-greaterThanTen.array.forEach( nums => 10 {
-  return 
-}); =  ;
-while (bigNums < 10){
-  return bigNums; 
-} 
+function greaterThanTen(numbers) {
+  const newArr = []
+  for (let i = 0; i < numbers.length; i++){
+    if (numbers[i] > 10) {
+      newArr.push(numbers[i])
+    }
+    
+  }
+  return newArr
+}
+
+
 //need to first find proper form for answer, find a way to tell the system to return all items 10 and above
 
 
@@ -28,7 +33,7 @@ function bWords(words) {
 //  extend([1, 2, 3], [4, 5, 6]);
 //  => [1, 2, 3, 4, 5, 6]
 function extend(originalArray, additionalItems) {
-  const originalArray([1, 2, 3], [4, 5, 6]);
+  const originalArray = ([1, 2, 3], [4, 5, 6]);
   const additionalItems = originalArray.push([1, 2, 3, 4, 5, 6])
   
 }
@@ -54,7 +59,7 @@ function everyOtherItem(items) {}
 //   findWordsStartingWith(['apple', 'banana', 'kiwi', 'pear', 'bacon'], 'b');
 //   => [1, 4]
 function findWordsStartingWith(words, letter) {
-const words = (['apple','banana', 'kiwi', 'pear', 'bacon'], 'b');
+const words = (['apple','banana', 'kiwi', 'pear', 'bacon']);
 const letter = words.indexOf('b');
 return letter;
 }
@@ -84,11 +89,11 @@ function findIndex(items, value) {
 // Ex.:
 //   range(1, 5);
 //   => [1, 2, 3, 4, 5]
-function range(1, 5)  {
-const rangeArr = [1, 2, 3, 4, 5,]
-const newArr = rangeArr.slice(1,4); 
-return newArr;
-}
+// function range(1, 5)  {
+// const rangeArr = [1, 2, 3, 4, 5,]
+// const newArr = rangeArr.slice(1,4); 
+// return newArr;
+// }
 
 export {
   bWords,
