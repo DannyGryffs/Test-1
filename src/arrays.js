@@ -23,9 +23,9 @@ function greaterThanTen(numbers) {
 //   bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']);
 //   => ['banana', 'Bonobo]
 function bWords(words) {
-
+console.log(words)
 }
-
+ bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear'])
 
 // Add all the elements from additionalItems to the end of originalArray.
 // Return the originalArray..
@@ -33,9 +33,8 @@ function bWords(words) {
 //  extend([1, 2, 3], [4, 5, 6]);
 //  => [1, 2, 3, 4, 5, 6]
 function extend(originalArray, additionalItems) {
-  const originalArray = ([1, 2, 3], [4, 5, 6]);
-  const additionalItems = originalArray.push([1, 2, 3, 4, 5, 6])
-  
+ originalArray.push(additionalItems)
+  return originalArray
 }
 
 // Return an array of all items with the given length.
@@ -45,6 +44,7 @@ function extend(originalArray, additionalItems) {
 function itemsWithLength(items, length) {
   
 }
+if items = items.length > 3
 
 // Return an array with every other element from the input array (start with index 0).
 // Ex.:

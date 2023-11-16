@@ -29,6 +29,8 @@ console.log(average(10, 2))
 //   => true
 function approximatelyEqual(x, y) {}
 
+see if they can give you an example of these ^^ different problem and do a few 
+
 // Given a first name and last name, return a full name in the format "FIRST LAST"
 // Ex.:
 //   fullName('John', 'Doe');
@@ -45,6 +47,8 @@ console.log(fullName('Jane', 'Doe'))
 //   generateSentence('Kay', 'coffee', 'the local cafe');
 //   => 'Kay was drinking coffee at the local cafe.'
 function generateSentence(person, beverage, location) {}
+
+//^^need assistance
 
 // Return the given string with all vowels replced with '*' characters.
 // Ex.:
@@ -71,6 +75,8 @@ function stickyCase(string) {}
 //   leetspeak('javascript');
 //   => 'j4v45cr1p7'
 function leetspeak(string) {}
+
+//if statement per letter?
 
 export {
   approximatelyEqual,
