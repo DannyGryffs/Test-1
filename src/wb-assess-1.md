@@ -30,10 +30,10 @@ let sum = 1;
 Which of these lines of code will cause `sum` to have a value of `2`? You can select more than one
 answer.
 
-- [ ] **A.** `sum++`
-- [ ] **B.** `sum += 1`
-- [ ] **C.** `sum = sum + 1`
-- [x] **D.** All of the above
+- [x] **A.** `sum++`
+- [x] **B.** `sum += 1`
+- [x] **C.** `sum = sum + 1`
+- [ ] **D.** All of the above
 - [ ] **E.** Some of the above
 
 ### A.3. What's the output?

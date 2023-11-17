@@ -22,8 +22,16 @@ function greaterThanTen(numbers) {
 // Ex.:
 //   bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']);
 //   => ['banana', 'Bonobo]
+
 function bWords(words) {
-console.log(words)
+  // const words = ['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']
+  let newArray = []
+  for(i = 0; i < words.length; i++) {
+  if words[i].starsWith('b') && words[i].startsWith('B') {
+  return newArray
+  }
+   newArr.push(words[i])
+  }
 }
  bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear'])
 
@@ -42,9 +50,10 @@ function extend(originalArray, additionalItems) {
 //   itemsWithLength(['a', 'bbb', 'cccc', 'dddddd', 'eee'], 3);
 //   => ['bbb', 'eee']
 function itemsWithLength(items, length) {
-  
+  const items = ['a', 'bbb', 'cccc', 'dddddd', 'eee']
+
 }
-if items = items.length > 3
+// if items = items.length > 3
 
 // Return an array with every other element from the input array (start with index 0).
 // Ex.:
