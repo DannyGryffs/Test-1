@@ -12,6 +12,8 @@ function greaterThanTen(numbers) {
   }
   return newArr
 }
+greaterThanTen([1, 2, 3, 11, 12, 13]);
+
 
 
 //need to first find proper form for answer, find a way to tell the system to return all items 10 and above
