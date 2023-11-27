@@ -5,11 +5,8 @@
 function divide(x, y) {
   return x / y;
 }
+divide(10,2)
 
-
-let num = divide(10,2)
-
-// console.log(num);
 
 // Return the average of x and y.
 // Here, the average of x and y is the *mean* of x and y. In other words, it's
@@ -20,14 +17,20 @@ let num = divide(10,2)
 function average(x, y) {
   return (x + y) / 2
 }
-console.log(average(10, 2))
+average(10, 2)
 
 // Return true if x and y are mostly equivalent up to a tolerance of 0.001.
 // In other words, return true if the aboslute value of x - y is less than 0.001.
 // Ex.:
 //   approximatelyEqual(10.001, 10);
 //   => true
-function approximatelyEqual(x, y) {}
+function approximatelyEqual(x, y) {
+  if (x - y < 0.001){
+  return true
+  }
+}
+approximatelyEqual(10.001, 10)
+
 
 // see if they can give you an example of these ^^ different problem and do a few 
 
@@ -40,15 +43,18 @@ function fullName(firstName, lastName) {
   return addedNames
 }
 
-console.log(fullName('Jane', 'Doe'))
+fullName('Jane', 'Doe')
 // Generate the sentence "PERSON was drinking BEVERAGE at LOCATION" using the
 // person, beverage and location provided.
 // Ex.:
 //   generateSentence('Kay', 'coffee', 'the local cafe');
 //   => 'Kay was drinking coffee at the local cafe.'
-function generateSentence(person, beverage, location) {}
+function generateSentence(person, beverage, location) {
+const madLib = `${person} was drinking ${beverage} at the ${location}`;
+return madLib;
+}
+generateSentence('Kay', 'coffee', 'the local cafe');
 
-//^^need assistance
 
 // Return the given string with all vowels replced with '*' characters.
 // Ex.:
@@ -74,7 +80,18 @@ function stickyCase(string) {}
 // Ex.:
 //   leetspeak('javascript');
 //   => 'j4v45cr1p7'
-function leetspeak(string) {}
+function leetspeak(string) {
+  'a' = 4,
+  'e' = 3,
+  'i' = 1,
+  'o' = 0,
+  's' = 5,
+  't' = 7
+  return string;
+  }
+
+leetspeak('javascript');
+
 
 //if statement per letter?
 

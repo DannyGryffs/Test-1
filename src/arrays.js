@@ -1,6 +1,6 @@
 // Given an array of numbers, return all the numbers that are greater than ten.
 // Ex.:
-//   greaterThanTen([1, 2, 3, 11, 12, 13]);
+//   [1, 2,greaterThanTen( 3, 11, 12, 13]);
 
 function greaterThanTen(numbers) {
   const newArr = []
@@ -29,7 +29,7 @@ function bWords(words) {
   // const words = ['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']
   let newArray = []
   for(i = 0; i < words.length; i++) {
-  if words[i].starsWith('b') && words[i].startsWith('B') {
+  if (words[i].starsWith('b') && words[i].startsWith('B')) {
   return newArray
   }
    newArr.push(words[i])
@@ -42,19 +42,25 @@ function bWords(words) {
 // Ex.:
 //  extend([1, 2, 3], [4, 5, 6]);
 //  => [1, 2, 3, 4, 5, 6]
+
+
 function extend(originalArray, additionalItems) {
- originalArray.push(additionalItems)
+  originalArray.push(additionalItems)
   return originalArray
 }
+extend([1, 2, 3], [4, 5, 6]);
 
 // Return an array of all items with the given length.
 // Ex.:
 //   itemsWithLength(['a', 'bbb', 'cccc', 'dddddd', 'eee'], 3);
 //   => ['bbb', 'eee']
 function itemsWithLength(items, length) {
-  const items = ['a', 'bbb', 'cccc', 'dddddd', 'eee']
-
+  const length = []
+  if(items[i] = items[i].length > 3) {
+   return length.itemsWithLength[i] = 3
+  }
 }
+itemsWithLength(['a', 'bbb', 'cccc', 'dddddd', 'eee'], 3);
 // if items = items.length > 3
 
 // Return an array with every other element from the input array (start with index 0).
@@ -90,21 +96,23 @@ function smallestNItems(items, n) {}
 //   findIndex(['a', 'b', 'c', 'a', 'b', 'c'], 'c');
 //   => 2
 function findIndex(items, value) {
-  const findI = (['a', 'b', 'c', 'a','b','c'], 'c');
- const findC = findI.indexOf('c');
- return findC;
+ items = ['a', 'b', 'c', 'a', 'b', 'c']
+ itemsC = items.includes('c')
+ return  value = items.indexOf(itemsC)
 }
+findIndex(['a', 'b', 'c', 'a', 'b', 'c'], 'c');
 
 // Given a start number and stop number, return a new array containing all the numbers
 // between the start and stop number.
 // Ex.:
 //   range(1, 5);
 //   => [1, 2, 3, 4, 5]
-// function range(1, 5)  {
-// const rangeArr = [1, 2, 3, 4, 5,]
-// const newArr = rangeArr.slice(1,4); 
-// return newArr;
-// }
+function range() {
+const nums = [1, 2, 3, 4, 5, 6]
+const selectedNums = nums.slice(0, 5)
+return selectedNums
+}
+range()
 
 export {
   bWords,
